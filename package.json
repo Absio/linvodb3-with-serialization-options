@@ -4,7 +4,7 @@
   "publishConfig": {
     "registry": "https://npm.absio.com"
   },
-    "dependencies": {
+  "dependencies": {
     "async": "2.x.x",
     "bagpipe": "Ivshti/bagpipe#ae11730ef59364b20868287fb3ce0970a87dc8c8",
     "binary-search-tree": "0.2.6",

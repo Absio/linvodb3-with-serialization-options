@@ -1,9 +1,9 @@
 var should = require('chai').should()
   , assert = require('chai').assert
-  , testDb = 'workspace/test3.db'
   , util = require('util')
   , fs = require('fs')
   , path = require('path')
+  , testDb = path.join('workspace', 'test3.db')
   , _ = require('underscore')
   , async = require('async')
   , rimraf = require('rimraf')
