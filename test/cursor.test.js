@@ -1,8 +1,8 @@
 var should = require('chai').should()
   , assert = require('chai').assert
-  , testDb = 'workspace/test.db'
   , fs = require('fs')
   , path = require('path')
+  , testDb = path.join('workspace', 'test.db')
   , _ = require('underscore')
   , async = require('async')
   , rimraf = require('rimraf')
@@ -1141,7 +1141,7 @@ describe('Cursor', function () {
       var liveFind, liveCount;
 
       // comment one of these two to work
-      liveFind = d.find({}).live();
+      // liveFind = d.find({}).live();
       liveCount = d.find({}).count().live();
 
       d.on("liveQueryUpdate", function() {
