@@ -23,9 +23,9 @@
     "level-js": "^2.2.3",
     "leveldown": "^2.0.2",
     "memdown": "^1.1.2",
-    "mocha": "4.0.x",
+    "mocha": "^5.2.0",
     "rimraf": "2.6.x",
-    "sinon": "4.1.x"
+    "sinon": "^5.1.1"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec --timeout 10000"
