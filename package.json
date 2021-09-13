@@ -1,8 +1,8 @@
 {
   "name": "linvodb3-with-serialization-options",
-  "version": "3.25.3",
+  "version": "3.25.4",
   "publishConfig": {
-    "registry": "https://npm.absio.com"
+    "registry": "https://intnexus.absio.com/repository/npm.absio.com/"
   },
   "dependencies": {
     "async": "3.2.0",
@@ -12,7 +12,7 @@
     "hat": "0.0.3",
     "levelup": "^3.1.1",
     "path": "^0.12.7",
-    "underscore": "1.8.x",
+    "underscore": "^1.12.x",
     "util": "github:Ivshti/node-util"
   },
   "devDependencies": {
@@ -21,9 +21,10 @@
     "commander": "2.12.1",
     "exec-time": "0.0.4",
     "level-js": "^2.2.3",
-    "leveldown": "^2.0.2",
+    "leveldown": "^6.0.1",
     "memdown": "^1.1.2",
     "mocha": "^5.2.0",
+    "request": "^2.88.2",
     "rimraf": "2.6.x",
     "sinon": "^5.1.1"
   },
