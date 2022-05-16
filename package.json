@@ -5,7 +5,7 @@
     "registry": "https://intnexus.absio.com/repository/npm.absio.com/"
   },
   "dependencies": {
-    "async": "3.2.0",
+    "async": "3.2.2",
     "bagpipe": "github:Ivshti/bagpipe#ae11730ef59364b20868287fb3ce0970a87dc8c8",
     "binary-search-tree": "0.2.6",
     "encoding-down": "^5.0.4",
